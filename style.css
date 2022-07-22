@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Poppins:wght@100;300;400;500;700&display=swap');
+
+:root {
+  --color-primary: #c69963;
+  --color-primary-dark: #B28451;
+
+  --color-secondary: #101d2c;
+
+  --color-grey-light-1: #f9f7f6;
+  --color-grey-light-2: #aaa;
+
+  --color-grey-dark-1: #54483A;
+  --color-grey-dark-2: #6D5D4B;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-grey-dark-2);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.header-container {
+  background-color: var(--color-grey-dark-1);
+  height: 80vh;
+
+  background-image: linear-gradient(rgba(16, 29, 44, 0.80), rgba(16, 29, 44, 0.90)), url(images/restaurant-kitchen.jpeg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header-container-logo {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-logo {
+  height: 100px;
+}
+.heading-logo {
+  font-family: 'Caesar Dressing';
+  letter-spacing: 4px;
+  margin-left: 20px;
+  align-self: center;
+}
+
+img.card-img {
+  height: 200px;
+}
