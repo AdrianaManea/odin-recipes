@@ -31,12 +31,14 @@ body {
   color: var(--color-grey-dark-2);
   font-weight: 300;
   line-height: 1.6;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-container {
+  height: 100vh;
+  
   background-color: var(--color-grey-dark-1);
-  height: 80vh;
-
   background-image: linear-gradient(rgba(16, 29, 44, 0.80), rgba(16, 29, 44, 0.90)), url(images/restaurant-kitchen.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +47,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-grow: 3;
+}
 
+.card-container {
+  flex-grow: 1;
 }
 
 .header-container-logo {
@@ -54,8 +60,9 @@ body {
 }
 
 .header-logo {
-  height: 100px;
+  height: 200px;
 }
+
 .heading-logo {
   font-family: 'Caesar Dressing';
   letter-spacing: 4px;
