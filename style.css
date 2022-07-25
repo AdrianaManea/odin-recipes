@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400');
-@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Poppins:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Josefin+Sans:wght@300;400;500;700&display=swap');
 
 :root {
   --color-primary: #c69963;
@@ -27,8 +26,8 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  color: var(--color-grey-dark-2);
+  font-family: 'Josefin sans', sans-serif;
+  color: var(--color-primary-dark);
   font-weight: 300;
   line-height: 1.6;
   display: flex;
@@ -50,10 +49,6 @@ body {
   flex-grow: 3;
 }
 
-.card-container {
-  flex-grow: 1;
-}
-
 .header-container-logo {
   display: flex;
   align-items: flex-start;
@@ -65,11 +60,28 @@ body {
 
 .heading-logo {
   font-family: 'Caesar Dressing';
+  font-size: 40px;
+  text-transform: uppercase;
   letter-spacing: 4px;
-  margin-left: 20px;
+  margin-left: 30px;
   align-self: center;
+}
+
+.heading-tastes {
+  color: var(--color-grey-light-1);
+  margin-top: 50px;
+  /* text-transform: uppercase; */
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.card-container {
+  background-color: var(--color-secondary);
+  border-left: 1px solid var(--color-grey-dark-1);
+  flex-grow: 1;
 }
 
 img.card-img {
   height: 200px;
 }
+
