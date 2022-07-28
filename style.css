@@ -76,6 +76,7 @@ body {
 .card-container {
   background-color: var(--color-secondary);
   border-left: 1px solid var(--color-grey-dark-1);
+  padding: 0 20px;
   flex: 1;
 
   display: flex;
@@ -171,9 +172,13 @@ img.card-img {
   }
 
   .card-container {
-    padding: 40px 0;
+    padding: 40px 5px;
     border-top: 1px solid var(--color-grey-dark-1);
-    border-bottom: 1px solid var(--color-grey-dark-1);
+    border-left: none;
+  }
+  
+  .card-container-lists {
+    gap: 5px;
   }
   
   .heading-logo {

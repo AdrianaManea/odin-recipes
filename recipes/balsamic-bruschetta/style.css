@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Josefin+Sans:wght@300;500;700&family=Nunito:wght@300&display=swap');
+
+:root {
+  --color-primary: #c69963;
+  --color-primary-dark: #B28451;
+
+  --color-secondary: #101d2c;
+
+  --color-grey-light-1: #f9f7f6;
+  --color-grey-light-2: #aaa;
+
+  --color-grey-dark-1: #54483A;
+  --color-grey-dark-2: #6D5D4B;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 1200px; */
+  font-family: 'Josefin sans', sans-serif;
+  color: var(--color-secondary);
+  background-color: var(--color-grey-light-1);
+  font-size: 20px;
+  line-height: 1.9;
+}
+
+.header-container {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-balsamic-img{
+  background-image: linear-gradient(rgba(16, 29, 44, 0.70), rgba(16, 29, 44, 0.80)), url(/images/balsamic-bruschetta.jpeg);
+}
+
+.header-h1 {
+  font-family: 'Caesar+Dressing';
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.6;
+  font-weight: 300;
+  
+  color: var(--color-primary);
+  padding: 20px 50px;
+  border-radius: 30px 0 30px 0;
+  margin: 0;
+
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.header-2 {
+  padding-bottom: 20px;
+  color: var(--color-secondary);
+  position: relative;
+  /* line-height: 10; */
+}
+
+.header-2:after {
+  content:' ';
+  display:block;
+  width: 50%;
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(16, 29, 44, 0.70);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.description .header-2 {
+  color: var(--color-secondary);
+}
+
+p {
+  padding: 0 30px;
+}
+
+.main-cards {
+  padding: 50px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: var(--color-primary-dark);
+  border-radius: 30px 0 30px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.ingredients {
+  align-self: center;
+}
+
+li {
+  text-align: left;
+  font-weight: 300;
+}
