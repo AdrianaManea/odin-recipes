@@ -42,7 +42,7 @@ body {
 }
 
 .header-balsamic-img{
-  background-image: linear-gradient(rgba(16, 29, 44, 0.70), rgba(16, 29, 44, 0.80)), url(balsamic-bruschetta.jpeg);
+  background-image: linear-gradient(rgba(16, 29, 44, 0.70), rgba(16, 29, 44, 0.80)), url(../../images/balsamic-bruschetta.jpeg);
 }
 
 .header-h1 {
